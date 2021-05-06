@@ -16,7 +16,7 @@ namespace Palindromo
 
         private static bool ValidaPalindromo(string palavra)
         {
-            var letras = RemoverAcentosECaractesEspeciais(palavra);
+            var letras = RemoverAcentosECaractesEspeciais(palavra).ToLower();
 
             if ((letras.Length % 2) == 0)
                 return false;
@@ -41,7 +41,7 @@ namespace Palindromo
             {
                 texto = texto.Replace(comAcentos[i].ToString(), semAcentos[i].ToString());
             }
-            return Regex.Replace(texto, @"[^\w]", ""); ;
+            return Regex.Replace(texto, @"[^\w]", "");
         }
     }
 }

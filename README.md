@@ -1,6 +1,6 @@
 ## Bem-vindo
 
-Essa aplicação é um teste de admissão para a empresa Knewin.
+Essa aplicação é um teste de admissão para a empresa.
 
 ### Projetos
 

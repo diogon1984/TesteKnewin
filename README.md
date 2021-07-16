@@ -1,6 +1,5 @@
 ## Bem-vindo
 
-Essa aplicação é um teste de admissão para a empresa.
 
 ### Projetos
 
